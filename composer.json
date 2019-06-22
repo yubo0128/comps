@@ -1,0 +1,21 @@
+{
+    "name": "scort/hello-world-sdk",
+    "description": "hellow-world-sdk",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "余波",
+            "email": "342730241@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php" : ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "HelloWorld\\": "src/"
+        }
+    }
+}
